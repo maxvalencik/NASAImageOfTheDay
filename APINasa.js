@@ -8,5 +8,9 @@ async function getImage(){
 }
 
 const button = document.querySelector('button');
-button.addEventListener('click', getImage);
+try{
+    button.addEventListener('click', getImage);
+} catch(e){
+    alert('Something is wrong...try again later!');
+}
 
