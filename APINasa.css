@@ -18,3 +18,7 @@ button{
 button:hover{
     background-color: lightcoral;
 }
+
+img{
+    width: 60vw;
+}
