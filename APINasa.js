@@ -11,8 +11,8 @@ const button = document.querySelector('button');
 try{
     button.addEventListener('click', function{
         getImage();              
-        button. disabled = true;
-    })
+        button.disabled = true;
+    });
 } catch(e){
     alert('Something is wrong...try again later!');
 }
