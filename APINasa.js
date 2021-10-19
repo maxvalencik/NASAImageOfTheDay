@@ -8,7 +8,7 @@ async function getImage(){
 }
 
 const button = document.querySelector('button');
-button.addEventListener('click', function() {
+button.addEventListener('click', function (){
     try{
         getImage();              
         button.disabled = true;
@@ -16,5 +16,4 @@ button.addEventListener('click', function() {
         alert('Something is wrong...try again later!');
     };
 });
-
 
